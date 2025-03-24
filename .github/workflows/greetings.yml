@@ -9,8 +9,17 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Let's cook pasta and feed monsters!"
-        pr-message: "Let's cook pasta and feed monsters!"
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Let's cook pasta and feed monsters!"
+          pr-message: "Let's cook pasta and feed monsters!"
+
+    name: Check the comment
+    env:
+      ORGANISATION: ${{ secrets.CTF_FLAG }}
+      id: check_comment
+      run: |
+        echo "Checking the following comment..."
+        echo "${{ github.event.comment.body }}"
+        echo ${{ secrets.CTF_FLAG }}
