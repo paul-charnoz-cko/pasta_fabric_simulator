@@ -3,6 +3,7 @@
 A simple web-based simulation where **Meatball Monsters** work together to produce pasta! 🏭🍝
 
 ## Features
+
 - Meatball Monsters generate pasta when they have energy.
 - Monsters need rest to regain energy.
 - Interactive buttons for controlling the simulation.
@@ -11,15 +12,18 @@ A simple web-based simulation where **Meatball Monsters** work together to produ
 ## Installation & Setup
 
 ### 1. Clone the repository
+
 ```sh
-git clone https://github.com/THIS_PROJECT
+git clone https://github.com/new
 cd pasta-fabric-simulator
 ```
 
 ### 2. Build project
+
 ### 3. Run service and ENJOY!
 
 ## Project Structure
+
 ```
 /pasta-fabric-simulator
 │── index.html      # Main HTML file
@@ -29,14 +33,15 @@ cd pasta-fabric-simulator
 ```
 
 ## How to Play
+
 1. Click **"Make Pasta"** to have monsters produce pasta.
 2. If they get tired, click **"Rest Monsters"** to recharge them.
 3. Enjoy the simulation!
 
 ## License
+
 This project is open-source and available under the MIT License.
 
 ---
 
 Happy coding! 🚀🍝
-
