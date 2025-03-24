@@ -14,7 +14,7 @@ A simple web-based simulation where **Meatball Monsters** work together to produ
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/new
+git clone https://github.com/{PROJECT}
 cd pasta-fabric-simulator
 ```
 
